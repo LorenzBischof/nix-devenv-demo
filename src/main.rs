@@ -8,7 +8,7 @@ fn main() -> Result<(), Error> {
     let dest: Image<f32, Gray> = image.run(conv, None);
 
     // Save an image to disk
-    dest.save("test.jpg")?;
+    dest.save("graycat.jpg")?;
 
     Ok(())
 }
